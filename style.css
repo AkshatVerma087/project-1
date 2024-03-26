@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Averta CY W10";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+*::selection{
+    color: #fff;
+    background-color: #000;
+}
+
+#main{
+    width: 100%;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+#navbar{
+    width: 100%;
+    padding: 30px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar img{
+    width: 80px;
+}
+
+#navbar #right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#navbar a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: black;
+    letter-spacing: -1px;
+}
+
+#navbar i{
+    font-size: 20px;
+}
+
+
+#home #home-main{
+    width: 100%;
+    padding: 15vw 12vw;
+
+}
+
+#home-main h1{
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    font-size: 1.5vw;
+    
+}
+
+.heading{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+#home-main .heading h1{
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    font-size: 7vw;
+    font-weight: 900;
+    letter-spacing: -3px;
+}
+
+#home-main .heading h1:hover{
+    color: #000;
+}
+
+#home-last{
+    padding: 5vw 12vw;
+}
+
+#home-last p{
+    font-size: 1.6vw;
+    font-weight: 500;
+    letter-spacing: -.08;
+    width: 70%;
+    transition: 0.6s;
+}
+
+#home-last p::selection{
+    color: #fff;
+    background-color: #000;
+    transition: 0.6s;
+}
+
+#featured{
+    padding: 10vw 12vw;
+    margin-top: 22vw;
+    
+}
+
+.fhead{
+    padding-bottom: 4vw;
+}
+
+.fhead>h1{
+    line-height: 1;
+    font-size: 4vw;
+    font-weight: 400;
+}
+
+.fhead>h1:nth-child(2){
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+}
+
+#f-img{
+    width: 100%;
+    height: 100vh;   
+    margin-top: 5vw;
+    /* padding: 0vw 15vw; */
+    
+    display: flex;
+    justify-content: space-between;
+}
+ 
+#f-left{
+    overflow: hidden;
+    width: 45%;
+    height: inherit;
+    
+} 
+
+#f-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 45%;
+    height: inherit;
+    
+}
+
+#f-right .img{
+    width: 90%;
+    height: 90%;
+}
+
+#f-right .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bdiv button{
+    margin-top: 60px;
+    padding: 1.3vw 2.5vw;
+    border-radius: 100px;
+    border: 2px solid #e6e6e6;
+    background-color: #fff;
+    font-size: 1vw;
+    transition: 0.6s ease;
+
+}
+
+.bdiv button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.elem{
+    width: 100%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.elem h1{
+    font-size: 2.5vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 1.5vw 0;
+}
+
+.elem h4{
+    opacity: .5;
+}
+
+.elem h3{
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+#dev{
+    width: 100%;
+    padding: 5vw 12vw;
+}
+
+#dev h1{
+    font-size: 4vw;
+    font-weight: 400;
+    width: 50%;
+    line-height: 1;
+}
+
+#dev P{
+    font-size: 1.45vw;
+    margin-top: 3vw;
+    letter-spacing: -.5px;
+    width: 45%;
+}
+
+#slides{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 7vw;
+}
+
+.slide{
+    width: 30%;
+
+}
+
+.slide .img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.slide .tag{
+    width: fit-content;
+    border-radius: 50px;
+    background-color: #dadada;
+    padding: 10px 22px;
+    margin: 20px 0;
+}
+
+.slide h3{
+    font-size: 1.4vw;
+    font-weight: 400;
+    letter-spacing: -.5px;
+}
+
+.slide .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
